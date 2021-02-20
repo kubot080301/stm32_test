@@ -28,3 +28,4 @@ f429zi_hal_led_test4\main.o: C:/Users/Hong/STM32Cube/Repository/STM32Cube_FW_F4_
 f429zi_hal_led_test4\main.o: C:/Users/Hong/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
 f429zi_hal_led_test4\main.o: C:/Users/Hong/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
 f429zi_hal_led_test4\main.o: C:/Users/Hong/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+f429zi_hal_led_test4\main.o: ..\Core\KUBOT\ledcpp.h

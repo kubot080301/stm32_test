@@ -25,23 +25,24 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
  
-#include "LEDcpp.hpp"
+#include "LEDcpp.h"
+#include "stm32f4xx_hal.h"
 
-CLed::CLed(GPIO_TypeDef* port,uint16_t pin,uint16_t toggleTime)
+CLed::CLed(GPIO_TypeDef* port,uint16_t pin)
 {
   _port=port;
-  _pin=pin;
-  _toggleTime=toggleTime;
-  counter=0; 
-  off();	
+  _pin=pin; 
 }
-
-void CLed::runToggle()
+void CLed::on()
 {
-  if(++counter>=_toggleTime)
-  {
-    counter=0;
-    toggle();
-  }	
+	HAL_GPIO_WritePin(_port,_pin,GPIO_PIN_SET);
 }
+void CLed::off()
+{
+	HAL_GPIO_WritePin(_port,_pin,GPIO_PIN_RESET);
+}
+void CLed::toggle()
+{
+	HAL_GPIO_TogglePin(_port,_pin);
+}	
 

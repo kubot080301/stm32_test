@@ -19,6 +19,7 @@
 "f429zi_hal_led_test4\stm32f4xx_hal.o"
 "f429zi_hal_led_test4\stm32f4xx_hal_exti.o"
 "f429zi_hal_led_test4\system_stm32f4xx.o"
+"f429zi_hal_led_test4\ledcpp.o"
 --library_type=microlib --strict --scatter "f429zi_hal_led_test4\f429zi_hal_led_test4.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
