@@ -4,23 +4,23 @@
 定義板上OnBoard LED1(PG13)、LED2(PG14)
 
 ----
-### HAL_LED Branch
+### 1.HAL_LED Branch
 在主while迴圈使用HAL庫驅動GPIO讓LED亮起。
 
 ----
-### RTOS_HAL_LED Branch
+### 2.RTOS_HAL_LED Branch
 
 
 ----
-### FreeRTOS_HAL_LED Branch
-
-
-
-----
-### Lib_HAL_LED Branch
-
+### 3.FreeRTOS_HAL_LED Branch
 
 
 
 ----
-### FreeRTOS_Lib_HAL_LED Branch
+### 4.Lib_HAL_LED Branch
+
+
+
+
+----
+### 5.FreeRTOS_Lib_HAL_LED Branch
