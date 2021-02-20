@@ -57,7 +57,8 @@ static void MX_GPIO_Init(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 
-	CLed led(GPIOG,GPIO_PIN_13);
+	CLed led1(GPIOG,GPIO_PIN_13);
+	CLed led2(LED2_GPIO_Port, LED2_Pin);
 
 /* USER CODE END 0 */
 
@@ -98,8 +99,11 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-		led.toggle();
-		HAL_Delay(500);
+		led1.on();
+		led2.toggle();
+		HAL_Delay(200);
+		led1.off();
+		HAL_Delay(200);
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
