@@ -22,3 +22,8 @@
 
 ----
 ### 4.FreeRTOS_Lib_HAL_LED Branch
+混用C、C++ Lib，在Task引用子執行檔
+
+----
+### 5.Lib_HAL_WS2812 Branch
+測試 WS2812 lib
