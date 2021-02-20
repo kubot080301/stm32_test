@@ -25,7 +25,7 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
  
-#include "LEDcpp.h"
+#include "ledcpp.h"
 #include "stm32f4xx_hal.h"
 
 CLed::CLed(GPIO_TypeDef* port,uint16_t pin)
