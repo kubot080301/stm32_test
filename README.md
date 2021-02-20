@@ -8,4 +8,19 @@
 在主while迴圈使用HAL庫驅動GPIO讓LED亮起。
 
 ----
-### RTOS_HAL_LED B
+### RTOS_HAL_LED Branch
+
+
+----
+### FreeRTOS_HAL_LED Branch
+
+
+
+----
+### Lib_HAL_LED Branch
+
+
+
+
+----
+### FreeRTOS_Lib_HAL_LED Branch
