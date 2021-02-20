@@ -3,7 +3,9 @@
 
 透過 STM32cudeMX生成.ioc，Generate MDK project，在Keil MDK 5.33開發。
 
-定義板上OnBoard LED1(PG13)、LED2(PG14)
+定義板上OnBoard LED1(PG13)、LED2(PG14)，
+
+並以不同頻率閃爍。
 
 
 ----
