@@ -10,18 +10,15 @@
 
 ----
 ### 1.HAL_LED Branch
-在主while迴圈使用HAL庫驅動GPIO讓LED亮起。
+在主while迴圈使用HAL庫驅動GPIO控制LED亮滅。
 
 ----
 ### 2.FreeRTOS_HAL_LED Branch
-
-
+使用FreeRTOS，使用HAL庫控制GPIO並透過Task管理LED亮滅。
 
 ----
 ### 3.Lib_HAL_LED Branch
-
-
-
+混用C、C++ Lib，在主迴圈引用子執行檔
 
 ----
 ### 4.FreeRTOS_Lib_HAL_LED Branch
